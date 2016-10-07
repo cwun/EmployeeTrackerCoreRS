@@ -1,1 +1,1 @@
-# EmployeeTrackerCoreRS
+# Tutorials on rewriting an Employee Tracker Web API with ASP.NET Core 1.0
