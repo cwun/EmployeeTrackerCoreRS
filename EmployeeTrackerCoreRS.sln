@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2ABE1548-60F7-4D88-8D4C-539DBB42285B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3E9D36E-499F-46F6-9E9F-A4B6A4782616}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EmployeeTracker.Api", "src\EmployeeTracker.Api\EmployeeTracker.Api.xproj", "{AD854C67-8311-48B0-A947-EB4AE346B58D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43A5EA09-0378-4B33-928B-5EA8CA7BB17C} = {43A5EA09-0378-4B33-928B-5EA8CA7BB17C}
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EmployeeTracker.Services", "src\EmployeeTracker.Services\EmployeeTracker.Services.xproj", "{43A5EA09-0378-4B33-928B-5EA8CA7BB17C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD854C67-8311-48B0-A947-EB4AE346B58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD854C67-8311-48B0-A947-EB4AE346B58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD854C67-8311-48B0-A947-EB4AE346B58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD854C67-8311-48B0-A947-EB4AE346B58D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A5EA09-0378-4B33-928B-5EA8CA7BB17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A5EA09-0378-4B33-928B-5EA8CA7BB17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A5EA09-0378-4B33-928B-5EA8CA7BB17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A5EA09-0378-4B33-928B-5EA8CA7BB17C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD854C67-8311-48B0-A947-EB4AE346B58D} = {2ABE1548-60F7-4D88-8D4C-539DBB42285B}
+		{43A5EA09-0378-4B33-928B-5EA8CA7BB17C} = {2ABE1548-60F7-4D88-8D4C-539DBB42285B}
+	EndGlobalSection
+EndGlobal
