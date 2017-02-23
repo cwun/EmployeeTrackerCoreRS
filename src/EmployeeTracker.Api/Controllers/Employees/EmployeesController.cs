@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using EmployeeTracker.Services.Employees;
 
@@ -20,6 +17,7 @@ namespace EmployeeTracker.Api.Controllers.Employees
         }
 
         // GET: api/employees
+        [HttpGet]
         public async Task<IActionResult> GetEmployees()
         {
             var result = await _service.GetEmployeesAsync();
